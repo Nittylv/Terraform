@@ -2,7 +2,7 @@
 
 # Create the certificate using a wildcard for all the domains created in project19.bossladies.click
 resource "aws_acm_certificate" "project_19_cert" {
-  domain_name       = "*.project19.bossladies.click"
+  domain_name       = "*.bossladies.click"
   validation_method = "DNS"
 }
 
