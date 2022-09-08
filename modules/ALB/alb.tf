@@ -110,7 +110,7 @@ resource "aws_lb_listener" "web-listener" {
   load_balancer_arn = aws_lb.ialb.arn
   port              = 443
   protocol          = "HTTPS"
-  certificate_arn   = aws_acm_certificate_validation.project_terraform.certificate_arn
+  certificate_arn   = aws_acm_certificate_validation.benny.certificate_arn
 
   default_action {
     type             = "forward"
