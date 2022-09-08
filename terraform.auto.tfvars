@@ -16,13 +16,13 @@ preferred_number_of_private_subnets = 4
 
 environment = "dev"
 #ubuntu is sonar 
-ami-sonar = "ami-08ab2705768f55d17"
+ami-sonar = "ami-0764d58c214f77c9f"
 
-ami-bastion = "ami-0d9095b111ba9152f"
+ami-bastion = "ami-04d8224df4db60a0f"
 
-ami-nginx = "ami-06ae0988e919b0d6a"
+ami-nginx = "ami-01cba58a7faaa6f07"
 
-ami-web = "ami-0f85bbca66cd81d89"
+ami-web = "ami-04f857a5c1dbca68e"
 
 keypair = "project16"
 
