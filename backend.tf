@@ -9,7 +9,7 @@
 # }
 
 
-#Terraform-Cloud-P19 is the name of workspace i craeted in Terraform cloud
+#Terraform is the name of workspace i craeted in Terraform cloud
 terraform {
   backend "remote" {
     organization = "pisitis"
