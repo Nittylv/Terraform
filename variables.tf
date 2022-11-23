@@ -92,3 +92,13 @@ variable "master-password" {
   type        = string
   description = "RDS master password"
 }
+
+variable "aws_secret_key"{
+default = "18mM5+KTP0aGEphR5o5+PFalJzVoPLFSq+ns2EVX"
+
+}
+
+
+variable "aws_access_key"{
+default = "AKIAVMSR3YJL7VZSYZJ7"
+}

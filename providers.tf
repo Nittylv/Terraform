@@ -8,6 +8,6 @@ terraform {
 
 provider "aws" {
   region = var.region
-  shared_config_files      = ["~/.aws/config"]
-  shared_credentials_files = [" ~/.aws/credentials"]
+  access_key=var.aws_access_key
+  secret_key=var.aws_secret_key
 }
